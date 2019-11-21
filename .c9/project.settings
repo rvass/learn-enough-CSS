@@ -1,4 +1,12 @@
 {
+    "ace": {
+        "@guessTabSize": false,
+        "@tabSize": 2,
+        "@useSoftTabs": true
+    },
+    "build": {
+        "@saveall": true
+    },
     "instance": {
         "@automaticShutdown": "30"
     },
