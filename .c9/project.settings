@@ -1,6 +1,6 @@
 {
     "ace": {
-        "@guessTabSize": false,
+        "@guessTabSize": true,
         "@tabSize": 2,
         "@useSoftTabs": true
     },
