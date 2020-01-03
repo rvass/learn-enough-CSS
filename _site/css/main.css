@@ -7,8 +7,18 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: helvetica, arial, sans;
+  min-height: 100vh; /*stretches to fill 100% of the viewports height*/
 }
+
+.content-container {
+  flex-grow: 1;
+  padding-top: 10vh;
+  width: 100%;
+}
+
 h1 {
   font-size: 7vw;
   margin-top: 0;
@@ -29,6 +39,7 @@ h2 ~ p {
   max-width: 70%;
   text-align: center;
 }
+
 
 
 /* HERO STYLES */
