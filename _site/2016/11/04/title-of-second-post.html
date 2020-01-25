@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  
+    <head>
+    <title>Test Page: Don't Panic too much</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+  
+    <!--flebox container-->
+    <body> 
+    
+        <!-- 1st potential flexbox item, but not flexing because position: fixed -->
+        <header class="header">
+  
+  <nav>
+    <ul class="header-nav nav-links">
+      <li><a href="/">Home</a></li>
+<li><a href="/gallery">Gallery</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="/2016/11/04/title-of-second-post.html">Newest Post</a></li>
+    </ul>
+  </nav>
+  <a href="/" class="header-logo">
+      <img src="/images/logo.png" alt="Learn Enough">
+  </a>
+  
+</header>
+        
+        <!-- 2nd flexbox item, the only one that will be changing in size -->
+        <div class="content-container"> <!--flexbox item-->
+            <div class="post">
+    <div class="half-hero" style="background-image:url(/images/shark.jpg)"></div>
+
+    <article class="page">
+        <header class="post-header">
+            <h1>this is the title of the post</h1>
+            <div class="post-byline">
+                <img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150" alt="">
+                <a href="https://twitter.com/richardvass82" class="social-link">Tw</a>
+                by: Raizard Ssav
+                <span> - November 04, 2016</span>
+            </div>
+        </header>
+        <aside class="post-aside">
+            <h4>Recent Posts</h4>
+            <ul class="blog-title-list">
+                
+                <li>
+                    <a href="/2016/11/04/title-of-second-post.html">this is the title of the post</a>
+                    <span>Posted: November 04, 2016</span>
+                </li>
+                
+                <li>
+                    <a href="/2016/11/03/title-of-post.html">this is the title of the post</a>
+                    <span>Posted: November 03, 2016</span>
+                </li>
+                
+            </ul>
+        </aside>
+        <div class="post-content">
+            <p>Ullamco ad quis veniam nulla eiusmod duis qui in aliquip Lorem ad dolore laborum velit. Minim nisi quis pariatur ipsum id enim minim ullamco quis. Est non aliqua nostrud consectetur. Ut anim dolor nostrud nostrud commodo irure do sunt. Officia Lorem laborum laborum nostrud in quis ullamco adipisicing duis amet dolor id magna ea. Minim esse sunt aute non eu.</p>
+
+<p>Ea consectetur anim proident ad ex veniam ullamco nisi dolor incididunt id nulla ut fugiat. Fugiat tempor reprehenderit non exercitation exercitation sunt quis. Cupidatat nostrud exercitation irure eiusmod in in sint Lorem laboris in sunt veniam sunt. Qui qui qui fugiat duis pariatur cupidatat minim dolore qui pariatur.</p>
+
+<p>Consectetur anim nisi id qui. Ea mollit eu ea elit consectetur culpa id eiusmod pariatur amet qui cupidatat. Esse ex ex fugiat excepteur. Aliqua cupidatat Lorem proident ipsum qui voluptate Lorem velit aliquip veniam. Velit et qui dolor laborum irure eiusmod id deserunt est consequat sunt nostrud. Incididunt nostrud nostrud amet esse nostrud culpa sint eu occaecat eu minim fugiat. In ex laboris sit dolor cillum incididunt id reprehenderit.</p>
+
+<p>Nostrud duis tempor culpa culpa amet do. Adipisicing amet proident laboris exercitation qui eiusmod esse consequat dolore fugiat ipsum cupidatat. Duis laborum magna enim anim cillum veniam irure laborum incididunt aliquip pariatur. Incididunt irure dolore quis fugiat.</p>
+
+        </div>
+        <footer class="post-footer">
+            Additional information, and maybe a <a href="#">link or two</a>
+        </footer>
+    </article>
+</div>
+        </div>
+    
+        <!-- 3rd potential flexbox item, but not given a flex: property -->
+        <footer class="footer">
+  <a class="footer-logo" href="/">
+    <img src="/images/logo.png" alt="Learn Enough"/>
+  </a>
+  <nav>
+    <ul class="footer-nav nav-links">
+      <li><a href="/">Home</a></li>
+<li><a href="/gallery">Gallery</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="/2016/11/04/title-of-second-post.html">Newest Post</a></li>
+    </ul>
+  </nav>
+  <h3>Learn Enough <span>to be Dangerous</span></h3>
+</footer>
+        
+    </body>
+</html>
